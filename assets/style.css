@@ -1,0 +1,394 @@
+
+ul {
+  list-style: none;
+}
+
+body {
+	margin: 0px;
+	background: #white;
+	font-family: 'Avenir', sans-serif; }
+
+h1{
+	margin-left: 20px;
+  color: #AA7F6F;
+}
+
+h2 {
+  line-height: 0px;
+  color: #AA7F6F;
+}
+
+h3 {
+  color: #AA7F6F;
+}
+
+h4 {
+  line-height: 0px;
+  color: #AA7F6F;
+  font-weight: normal;
+}
+
+A.hover{
+  opacity: 0.5;
+}
+
+.inactive {
+    border: 2px solid #2f353f;
+    color: #2f353f;
+}
+
+.inactive:hover {
+    opacity: 0.6;
+}
+
+#shop-bare {
+  font-size: 24;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+  padding: 20px 0px 0px 0px;
+  background-color: #F8EBEF;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.nav-item {
+  font-family: 'Avenir', sans-serif;
+  font-size: 18;
+  color: #AA7F6F;
+  font-weight: bold;
+}
+
+
+#home {
+  text-align: center;
+}
+#search-bar {
+  cursor: text;
+}
+
+.row {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.background-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-page {
+  position: absolute;
+  top: 400px;
+  height: 256px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+.main-content {
+  z-index: 1;
+}
+
+
+#title-text {
+  font-family: 'Avenir', sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  color: white;
+  font-size: 176;
+  z-index:1;
+}
+
+#description-text {
+  font-family: 'Avenir', sans-serif;
+  color: white;
+  font-size: 30;
+  letter-spacing: :-1px;
+  z-index:1;
+}
+
+#shop {
+  font-family: 'Avenir', sans-serif;
+  font-size: 25;
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+}
+
+.items {
+  padding: 0px 10px 10px 100px
+}
+
+#shop-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  height: 100%;
+}
+
+#shop-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#product-row{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.product-photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-photo img {
+	width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.product-photo:hover{
+	cursor: pointer;
+}
+.product-photo:active {
+	opacity: 0.5;
+}
+
+.details-title {
+  line-height: 0px;
+}
+
+.sub-title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 18;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#sidebar{
+  padding: 20px;
+}
+.sidebar-header{
+  text-align: left;
+}
+.sidebar-item{
+  text-align: left;
+}
+
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  padding: 20px 0px 0px 0px;
+  background-color: #F8EBEF;
+  bottom: 0px;
+  margin-top: 100px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.footer-item {
+  font-family: 'Avenir', sans-serif;
+  font-size: 18;
+  color: #AA7F6F;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Avenir', sans-serif;
+  font-size: 12;
+  color: #AA7F6F;
+  padding-bottom: 10px;
+}
+
+#bare-link{
+  color: #AA7F6F;
+}
+
+#product-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#product-images {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 50px 0px 50px;
+  width: 50%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#product-images {
+  display: flex;
+  flex-direction: row;
+}
+
+#three-images{
+  width: 23%;
+}
+
+.side-image:hover{
+	cursor: pointer;
+  opacity: 0.5;
+}
+
+#large-image{
+  width: 77%;
+  margin-left: 20px;
+}
+
+#three-images img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+#large-image img{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+#product-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 100px 70px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.container {
+    position: relative;
+    text-align: center; }
+
+
+	#search:hover{
+		cursor: text;
+	}
+
+.list {
+  font-size: 15px;
+  font-family: avenir;
+  position: relative;
+  bottom: 1150px;
+  right: 300px;
+  line-height: 35px;
+  margin-left: 1300px;
+}
+
+.object {
+  font-size: 15px;
+  font-family: "Avenir";
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.object {
+  display: inline-block;
+	padding: 5px;
+  text-align: center;
+
+}
+
+/* ADD TO BAG */
+#myBtn{
+  padding: 10px;
+  background-color: #F8EBEF;
+  font-family: 'Avenir', sans-serif;
+  color: #AA7F6F;
+  font-size: 18;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #F8EBEF;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
